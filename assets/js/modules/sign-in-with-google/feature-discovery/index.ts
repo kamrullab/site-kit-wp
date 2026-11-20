@@ -54,7 +54,7 @@ export function registerFeatures( featureDiscoveryAPI: FeatureDiscoveryAPI ) {
 			'google-site-kit'
 		),
 		shortDescription: __(
-			'Provide your site visitors with a simple, secure, and personalized experience by adding a Sign in with Google button to your login page',
+			'Provide your site visitors with a simple, secure, and personalized experience by adding a Sign in with Google button to your login page.',
 			'google-site-kit'
 		),
 		detail: {
