@@ -487,7 +487,7 @@ export function registerFeatures( featureDiscoveryAPI: FeatureDiscoveryAPI ) {
 		moduleSlug: MODULE_SLUG_ANALYTICS_4,
 		title: __( 'Enhance your site tracking', 'google-site-kit' ),
 		shortDescription: __(
-			'Better understand what visitors do on your site with detailed tracking',
+			'Better understand what visitors do on your site with detailed tracking.',
 			'google-site-kit'
 		),
 		detail: {
@@ -591,7 +591,7 @@ export function registerFeatures( featureDiscoveryAPI: FeatureDiscoveryAPI ) {
 		addedInVersion: '1.113.0',
 		setup: {
 			type: FEATURE_SETUP_TYPES.BACKGROUND_TOGGLE,
-			ctaLabel: __( 'Enable enhanced measurements', 'google-site-kit' ),
+			ctaLabel: __( 'Enable enhanced measurement', 'google-site-kit' ),
 			isEnabled: isEnhancedMeasurementEnabled,
 			activate: activateEnhancedMeasurement,
 		},
@@ -602,7 +602,7 @@ export function registerFeatures( featureDiscoveryAPI: FeatureDiscoveryAPI ) {
 		name: __( 'Visitor groups', 'google-site-kit' ),
 		title: __( 'Learn about your visitor groups', 'google-site-kit' ),
 		shortDescription: __(
-			'Segment your visitors into categories that help you understand site behaviour for demographcs of subsets of visitors that you define',
+			'Segment your visitors into categories that help you understand site behavior for demographics of subsets of visitors that you define.',
 			'google-site-kit'
 		),
 		detail: {
