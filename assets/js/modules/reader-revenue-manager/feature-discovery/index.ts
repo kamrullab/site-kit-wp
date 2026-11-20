@@ -338,15 +338,15 @@ export function registerFeatures( featureDiscoveryAPI: FeatureDiscoveryAPI ) {
 			},
 			successNotice: {
 				title: __(
-					'Success! Your Newsletter sign-up form by Reader Revenue Manager is set up',
+					'Success! Your newsletter sign-up form by Reader Revenue Manager is set up',
 					'google-site-kit'
 				),
 				description: __(
-					'You can always update your sign-up form settings in Publisher center',
+					'You can always update your sign-up form settings in Publisher Center',
 					'google-site-kit'
 				),
 				cta: {
-					label: __( 'Go to Publisher center', 'google-site-kit' ),
+					label: __( 'Go to Publisher Center', 'google-site-kit' ),
 					getURL: ( select ) =>
 						select( CORE_MODULES ).getDetailsLinkURL(
 							MODULE_SLUG_READER_REVENUE_MANAGER
